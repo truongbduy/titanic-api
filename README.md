@@ -18,6 +18,12 @@ Installation
 * Switch into the `data` directory using `cd raw`.
 * Download train.csv and test.csv on Kaggle Titanic challenge into raw data
 
+### Install the requirements
+ 
+* Install the requirements using `pip install -r requirements.txt`.
+    * Make sure you use Python 3.
+    * You may want to use a virtual environment for this.
+    
 ### Train logistic model
 * Run `python train_model.py` to clean the `train` dataset and train a logistic model using that dataset. The pipeline and model is saved in `models` directory
 
