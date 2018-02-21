@@ -6,6 +6,11 @@ from sklearn.externals import joblib
 
 app = Flask(__name__)
 
+@app.route('/')
+
+def home():
+    return "Titanic predictive API"
+
 @app.route('/predict', methods = ['POST'])
 
 def predict():
